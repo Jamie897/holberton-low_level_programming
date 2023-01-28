@@ -1,19 +1,20 @@
-#include <stdio.h>
+include <stdio.h>
+#include <stdlib.h>
 /**
- * main - prints numbers 0-9 without using char or printf/puts,
- * and putchar 2x max
-(*
- * Return: 0 on success
+ * main - Prints numbers.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i = '0';
+	int num;
 
-	while (i <= '9')
+	for (num = 0; num <= 9; num++)
 	{
-		putchar(i);
-		i++;
+		putchar((num % 10) + '0');
 	}
+
 	putchar('\n');
+
 	return (0);
 }
