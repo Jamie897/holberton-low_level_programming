@@ -1,26 +1,25 @@
-include <stdio.h>
-
+#include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Succes)
+ * main - prints all numbers of base 16.
+(*
+ * Return: 0 on success
  */
-
 int main(void)
 {
-	int n;
+	int i = '0';
 
-	for (n = 0 ; n < 16 ; n++)
+	while (i <= '9')
 	{
-		if (n < 10)
-		{
-			putchar('0' + n);
-		}
-		else
-		{
-			putchar(87 + n);
-		}
+		putchar(i);
+		i++;
+	}
+	i = 'a';
+	while (i <= 'f')
+	{
+		putchar(i);
+		i++;
 	}
 	putchar('\n');
 	return (0);
+
 }
