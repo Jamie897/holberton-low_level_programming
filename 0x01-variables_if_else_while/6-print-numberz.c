@@ -1,20 +1,21 @@
-include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
+
 /**
- * main - Prints numbers.
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succes)
  */
+
 int main(void)
 {
-	int num;
+	int n;
 
-	for (num = 0; num <= 9; num++)
+	for (n = 0 ; n < 10 ; n++)
 	{
-		putchar((num % 10) + '0');
+		putchar(n + '0');
 	}
-
 	putchar('\n');
-
 	return (0);
 }
+
+
