@@ -1,24 +1,11 @@
 #include "holberton.h"
 /**
-*_strcat - function that concatenates two strings.
-*
-*
-*
-*Return: pointer to destination string.
+ * reset_to_98 - use a pointer to change integer value
+ * @n: parameter
+ * Description - reset_to_98 resets the value of *n to 98
  */
-char *_strcat(char *dest, char *src)
-{
-int length, j;
 
-length = 0;
-while (dest[length] != '\0')
+void reset_to_98(int *n)
 {
-length++;
-}
-for (j = 0; src[j] != '\0'; j++, length++)
-{
-dest[length] = src[j];
-}
-dest[length] = '\0';
-return (dest);
+	*n = 98;
 }
