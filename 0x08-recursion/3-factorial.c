@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * factorial - returns the length of a string
