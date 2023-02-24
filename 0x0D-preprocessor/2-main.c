@@ -1,6 +1,17 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#include <stdio.h>
 
-#define ABS(x) ((x) < 0 ? (-(x)) : (x))
+/**
+ * main - Prints the name of the file it was compiled from
+ *
+ *
+ * Return: 0
+ */
 
-#endif
+
+int main(void)
+{
+
+	printf("%s\n", __FILE__);
+
+	return (0);
+}
