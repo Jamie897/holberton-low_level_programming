@@ -1,12 +1,6 @@
-#include <stdio.h>
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
-/**
- * main - prints the file of the name program
- * Return: Always 0
- */
+#define ABS(x) ((x) < 0 ? (-(x)) : (x))
 
-int main(void)
-{
-printf("%s/n", __FILE__);
-return (0);
-}
+#endif
