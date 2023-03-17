@@ -25,19 +25,3 @@ list_t *add_node(list_t **head, const char *str)
 	*head = new;
 	return (new);
 }
-
-/**
- * _strlen - Calculate lenght of a string.
- * @s: string.
- *
- * Return: lenght of the string s.
- */
-
-int _strlen(const char *s)
-{
-	int idx = 0;
-
-	for (; s[idx]; idx++)
-	;
-	return (idx);
-}
