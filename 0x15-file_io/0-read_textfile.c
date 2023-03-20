@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * read_textfile - read a textfile.
  * @filename: name of the file to open.
