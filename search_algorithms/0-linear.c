@@ -1,4 +1,3 @@
-wilfried@search_algorithms$ cat 0-main.c 
 #include <stdio.h>
 #include <stdlib.h>
 #include "search_algos.h"
